@@ -145,7 +145,7 @@ describe "GIT" do
 
   it "20. It is best practice to add a feature on the master branch" do
     # "true" or "false", in a string
-    answer = "true"
+    answer = "false"
 
     encoded_answer = "7cb6efb98ba5972a9b5090dc2e517fe14d12cb04"
     expect(encode(answer)).to eq(encoded_answer)
@@ -164,7 +164,7 @@ describe "GIT" do
       that you create: for instance, a branch made off of master will look exactly
       like a branch made off of `add-walrus-and-polar-bear`" do
     # "true" or "false", in a string
-    answer = "?"
+    answer = "false"
 
     encoded_answer = "7cb6efb98ba5972a9b5090dc2e517fe14d12cb04"
     expect(encode(answer)).to eq(encoded_answer)
