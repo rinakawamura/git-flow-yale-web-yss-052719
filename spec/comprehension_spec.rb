@@ -1,4 +1,4 @@
-# describe "GIT" do
+describe "GIT" do
 # # describe "STAGING AND COMMITTING CHANGES:" do
 #   it "1. What is the syntax for staging a change in index.html if it is in the root dir?" do
 #     answer = "git add index.html"
