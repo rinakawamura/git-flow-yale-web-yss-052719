@@ -5,20 +5,20 @@
 #     encoded_answer = "bf338924ddc9ff4eb0c685a794960e0c4ffade2c"
 #     expect(encode(answer)).to eq(encoded_answer)
 #   end
-# 
+#
 #   it "2. What is the syntax for staging all files, including new, modified, and deleted files?" do
 #     answer = "git add ."
 #     encoded_answers = ["e3ed0db138a439522bc6f0a56c71b2c90e3443db", "d43b64f144ca0689fea30adb6e5cb2150c971a0c", "1a1c76a81d0981b7fe181d7869d1ede4d1a2a24f"]
 #     expect(encode(answer)).to satisfy { |answer| encoded_answers.include?(answer) }
 #   end
-# 
+#
 #   it "3. What is the syntax for committing all staged changes with the message
 #       'update link styles'?" do
 #     answer = "git commit -m 'update link styles'"
 #     encoded_answer = "8d06e2760cda4755f387db0db0e6c425b2ece976"
 #     expect(encode(answer)).to eq(encoded_answer)
 #   end
-# 
+#
 #   it "4. What command allows you to add all previously all tracked, modified files
 #       and create a message, 'add img to index' for the commit in one command?" do
 #     answer = "git commit -am 'add img to index'"
@@ -26,7 +26,7 @@
 #     expect(encode(answer)).to eq(encoded_answer)
 #   end
 # # end
-# 
+#
 # # describe "PUSHING:" do
 #   it "5. From the master branch, what is the syntax for pushing the master branch
 #       to the remote master branch where the remote is called 'origin'?" do
@@ -34,7 +34,7 @@
 #     encoded_answer = "6c8e01a0360da3cf6e314c69c453957b70ab1b4e"
 #     expect(encode(answer)).to eq(encoded_answer)
 #   end
-# 
+#
 #   it "6. From the feature branch 'add-links', what is the syntax for creating a
 #       remote add-links branch with all of the local branch's content?
 #       (remote is still called 'origin')" do
@@ -42,14 +42,14 @@
 #     encoded_answer = "07476403b56e1437e855a5d7031b3abc0b97de5a"
 #     expect(encode(answer)).to eq(encoded_answer)
 #   end
-# 
+#
 #   it "7. From the master branch, what is the syntax for pushing the master branch to the
 #       # remote master branch where the remote is called 'upstream'?" do
 #     answer = "git push upstream master"
 #     encoded_answer = "46e78005226efc7d1be2b4f9f26bcbdba2bf286d"
 #     expect(encode(answer)).to eq(encoded_answer)
 #   end
-# 
+#
 #   it "8. From the feature branch 'add-image', what is the syntax for creating a remote
 #       add-image branch with all of the local branch's content?
 #       (remote is still called 'upstream')" do
